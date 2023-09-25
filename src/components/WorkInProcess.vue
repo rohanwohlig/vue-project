@@ -11,7 +11,7 @@
         justify="center"
         class="pa-16"
       >
-        <v-card class="pa-2 mx-6 mb-4 rounded-xl sisi" elevation="15">
+        <v-card class="pa-6 mx-12 mb-4 rounded-xl sisi" elevation="15">
           <div class="h3 font-weight-bold fontcard">Meet & Discuss</div>
           <div>
             <p class="py-2 fontcardp">
@@ -19,13 +19,13 @@
             </p>
           </div>
         </v-card>
-        <v-card class="pa-2 mx-6 mb-4 rounded-xl sisi" elevation="15">
+        <v-card class="pa-6 mx-12 mb-4 rounded-xl sisi" elevation="15">
           <div class="h3 font-weight-bold fontcard">Scope & Plan</div>
           <div>
             <p class="py-2 fontcardp">We scope and plan it accordingly.</p>
           </div>
         </v-card>
-        <v-card class="pa-2 mx-6 mb-4 rounded-xl sisi" elevation="15">
+        <v-card class="pa-6 mx-12 mb-4 rounded-xl sisi" elevation="15">
           <div class="h3 font-weight-bold fontcard">Develop & Launch</div>
           <div>
             <p class="py-2 fontcardp">
@@ -63,7 +63,12 @@ p {
 @media only screen and (max-width: 600px) {
   .h2 {
     font-size: 30px;
-  } /* .h3 { font-size:
-14px; } p { font-size: 8px; } .si { height: 230px; width: 160px; } */
+  }
+  .h3 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 14px;
+  }
 }
 </style>

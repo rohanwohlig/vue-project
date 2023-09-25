@@ -105,14 +105,14 @@ export default { name: "WeBelieveIn" };
     font-size: 30px;
   }
   .h3 {
-    font-size: 14px;
+    font-size: 18px;
   }
   .p2 {
-    font-size: 10px;
+    font-size: 13px;
   }
   .size {
-    height: 75px;
-    width: 75px;
+    height: 90px;
+    width: 90px;
   }
 }
 </style>

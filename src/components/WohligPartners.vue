@@ -1,7 +1,18 @@
 <template>
   <div class="py-16">
     <v-row :class="$vuetify.breakpoint.mdAndUp">
-      <v-col cols="12" lg="6" xs="12" sm="12" md="6" class="py-16 my-8 px-10">
+      <v-col
+        cols="12"
+        lg="6"
+        xs="12"
+        sm="12"
+        md="6"
+        class="py-16"
+        :class="{
+          'px-2 mx-2': $vuetify.breakpoint.smAndDown,
+          'my-8 px-10': $vuetify.breakpoint.mdAndUp,
+        }"
+      >
         <div class="text-center pa-10 h2 font-weight-bold fontcolor">
           Wohlig partners with Shopify
         </div>
@@ -9,13 +20,13 @@
           <v-card class="cardColor" outlined>
             <v-card-text>
               <v-row align="center">
-                <v-col cols="6" class="pl-7">
+                <v-col cols="6" class="pl-3">
                   <v-img
                     class="sizee"
                     :src="require('@/assets/image 2.png')"
                   ></v-img>
                 </v-col>
-                <v-col cols="6" class="pl-10">
+                <v-col cols="6" class="pl-7">
                   <v-img
                     class="sizee"
                     :src="require('@/assets/image 3.png')"
@@ -52,8 +63,7 @@ export default { name: "WohligPartners" };
   font-size: 45px;
 }
 .sizee {
-  height: 80px;
-  width: 282px;
+  width: 100%;
 }
 .siz {
   width: 600px;
@@ -68,8 +78,7 @@ export default { name: "WohligPartners" };
     font-size: 30px;
   }
   .sizee {
-    height: 40px;
-    width: 141px;
+    width: 100%;
   }
   .siz {
     width: 300px;
