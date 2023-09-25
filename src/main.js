@@ -1,9 +1,8 @@
 import Vue from "vue";
 import App from "./App.vue";
-import vuetify from "./plugins/vuetify";
 import router from "./router";
+import vuetify from "./plugins/vuetify";
 import { Auth0Plugin } from "./auth";
-
 const domain = "dev-nyf4tc8zpdbtm55k.us.auth0.com";
 const clientId = "0VVpunn8nVOEXVFe65NwigtRDrumfg0q";
 

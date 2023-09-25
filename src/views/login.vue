@@ -1,10 +1,24 @@
 <template>
   <div class="login">
-    <v-btn class="mx-5" x-small color="secondary" @click="login()" dark>
+    <v-btn
+      class="mx-5"
+      v-if="!$auth.isAuthenticated"
+      x-small
+      color="secondary"
+      @click="login()"
+      dark
+    >
       Extra small Button
     </v-btn>
 
-    <v-btn class="mx-5" color="success" @click="logout()" dark>logout</v-btn>
+    <v-btn
+      class="mx-5"
+      v-if="$auth.isAuthenticated"
+      color="success"
+      @click="logout()"
+      dark
+      >logout</v-btn
+    >
 
     <v-btn x-small color="secondary" dark> Extra small Button </v-btn>
   </div>

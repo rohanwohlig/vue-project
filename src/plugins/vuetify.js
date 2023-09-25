@@ -3,15 +3,16 @@ import Vue from "vue";
 import Vuetify from "vuetify";
 
 import "vuetify/dist/vuetify.min.css"; // Add this line
+import "material-design-icons-iconfont/dist/material-design-icons.css";
 
 Vue.use(Vuetify);
 
 export default new Vuetify({
   icons: {
-    iconfont: "mdi", // 'md' || 'mdiSvg' || 'md' || 'fa' || 'fa4'
+    iconfont: "md", // 'md' || 'mdiSvg' || 'md' || 'fa' || 'fa4'
   },
   theme: {
-    dark: true,
+    dark: false,
   },
   themes: {
     light: {
