@@ -10,7 +10,7 @@
       >
         <v-icon>menu </v-icon>
       </v-btn>
-      <div class="mx-2">
+      <div class="ml-16">
         <v-img
           :src="require('@/assets/image 1.png')"
           height="40"
